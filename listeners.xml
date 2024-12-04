@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.crm.Listeners.ExtentWithListeners"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="BatchExecution.TestCase4"/>
+      <class name="BatchExecution.TestCase5"/>
+      <class name="BatchExecution.TestCase6"/>
+      <class name="BatchExecution.TestCase7"/>
+      <class name="BatchExecution.TestCase1"/>
+      <class name="BatchExecution.TestCase2"/>
+      <class name="BatchExecution.TestCase3"/>
+      <class name="BatchExecution.TestCase10"/>
+      <class name="BatchExecution.TestCase8"/>
+      <class name="BatchExecution.TestCase9"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
